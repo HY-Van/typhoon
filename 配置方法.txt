@@ -1,0 +1,13 @@
+# 环境配置
+conda create -n typhoon python=3.9
+pip install selenium
+pip install webdriver-manager
+
+# 不想显示窗口
+去掉# options.add_argument('--headless')中的#
+
+# 路径更改
+# 将这句中地址改为你想要保存文件的地址
+base_download_path = r'C:\Users\13512\Downloads'
+# 将这句中地址改为你存放chrome驱动的地址及driver名称
+driver_path = r'D:\other\chromedriver-win64\chromedriver.exe'
